@@ -62,6 +62,13 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
+/* about me */
+
+.about div h2{
+    padding: 25px;
+    position: relative;
+}
+
 /* Footer */
 
 footer {
