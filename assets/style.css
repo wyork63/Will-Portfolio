@@ -17,12 +17,14 @@ header{
     background-color: lightgray;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
     top: 0;
     background-image: url(/assets/images/Background-image.png);
     background-size: cover;
     background-position: center;
-    background-attachment: 50%;
+    position: sticky;
+    margin: 0 auto;
+    background-attachment: local;
+    z-index: 9999;
 }
 
 header h1 {
@@ -62,6 +64,19 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
+/* Hero */
+.hero {
+    background-image: url(/assets/images/Background-image.png);
+    background-size: cover;
+    background-position: bottom;
+    padding: 40px;
+    background-attachment: local;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 auto; 
+}
+
 /* about me */
 
 .about div h2{
@@ -79,4 +94,17 @@ footer {
     top: 0;
     flex-wrap: wrap;
     padding: 15px;
+}
+
+/* MEDIA QUERIES FOR SMALLER SCREENS */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
 }
