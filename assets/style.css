@@ -18,6 +18,10 @@ header{
     flex-wrap: wrap;
     position: sticky;
     top: 0;
+    background-image: url(/assets/images/Background-image.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: 50%;
 }
 
 header h1 {
