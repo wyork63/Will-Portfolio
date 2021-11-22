@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body {color: navy;
-font-family: Georgia, 'Times New Roman', Times, serif
+body {
+    color: rgb(30, 0, 128);
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 /* nav bar */
@@ -45,16 +46,30 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    text-shadow: 0 0 10px rgba( 0, 0, 0, 0.5);
 }
 
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 20px;
+    color: black;
 }
 
 header nav ul li a:hover {
-    background-color: grey;
+    background-color: black;
     color: white;
     border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: gray;
+    padding: 5px 5px; 
+    font-size: 9px;
+    top: 0;
+    flex-wrap: wrap;
+    padding: 15px;
 }
