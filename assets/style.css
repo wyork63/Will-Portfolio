@@ -93,13 +93,23 @@ header nav ul li a:hover {
     margin: 0 auto;
 }
 
+.bio {
+    width: 40%;
+    float: left;
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+
+}
+
 .about-me img {
     border-radius: 75%;
     width: 30%;
     padding: 10px;
     max-width: 100%;
-    border: 1px solid #808008;
+    border: 2px solid #808080;
     position: relative;
+    
 }
 
 /* Footer */
@@ -112,6 +122,16 @@ footer {
     top: 0;
     flex-wrap: wrap;
     padding: 15px;
+}
+
+/* contact me */
+section div ul {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* MEDIA QUERIES FOR SMALLER SCREENS */
