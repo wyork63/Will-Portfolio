@@ -117,6 +117,25 @@ header nav ul li a:hover {
 
 /* My work */
 
+.work-pics {
+  display: flex;
+  margin-top: 2%;
+  flex-wrap: wrap;
+}
+
+.work-big {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.work-normal {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-between;
+}
+
 
 /* contact me */
 
