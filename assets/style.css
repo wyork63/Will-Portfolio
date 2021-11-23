@@ -14,16 +14,12 @@ body {
 header{
     display: flex;
     padding: 20px 35px;
-    background-color: lightgray;
+    background-color: #a0cce3;
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
-    background-image: url(/assets/images/Background-image.png);
-    background-size: cover;
-    background-position: center;
     position: sticky;
     margin: 0 auto;
-    background-attachment: local;
     z-index: 9999;
 }
 
@@ -61,15 +57,15 @@ header nav ul li a {
 header nav ul li a:hover {
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 /* Hero */
 .hero {
     background-image: url(/assets/images/Background-image.png);
     background-size: cover;
-    background-position: bottom;
-    padding: 40px;
+    background-position: 25% 75%;
+    padding: 50px;
     background-attachment: local;
     display: flex;
     flex-wrap: wrap;
@@ -77,18 +73,33 @@ header nav ul li a:hover {
     margin: 0 auto; 
 }
 
+.welcome {
+    position: absolute;
+    right: 40px;
+    font-size: 30px;
+    top: 120px;
+    color: lightgray;
+    padding: 1px;
+    border: solid black 3px;
+    background-color: black;
+}
+
 /* about me */
 
-.about div h2{
+.about h2{
     padding: 25px;
     position: relative;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .about-me img {
-    width: 20%;
+    border-radius: 75%;
+    width: 30%;
     padding: 10px;
-     
-    
+    max-width: 100%;
+    border: 1px solid #808008;
+    position: relative;
 }
 
 /* Footer */
