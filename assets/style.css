@@ -5,7 +5,7 @@
 }
 
 body {
-    color: rgb(30, 0, 128);
+    color: rgb(16, 43, 219);
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
@@ -139,13 +139,32 @@ header nav ul li a:hover {
   padding: 10px;
   text-align: center;
   justify-content: space-between;
-  opacity: .5;
+  opacity: .65;
+  position: relative;
+  text-align: center;
 }
 
 .work-normal:hover {
     opacity: 1.0;
-
 }
+
+/* move text on work pictures */
+
+.work-normal {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    font-size: 20px;
+    position: absolute;
+    bottom: 15px;
+    left: 108px;
+    background-color: black;
+}
+
+
 
 .border {
     border: 2px solid #000
