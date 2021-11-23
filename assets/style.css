@@ -84,6 +84,13 @@ header nav ul li a:hover {
     position: relative;
 }
 
+.about-me img {
+    width: 20%;
+    padding: 10px;
+     
+    
+}
+
 /* Footer */
 
 footer {
