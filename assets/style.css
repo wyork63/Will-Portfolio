@@ -62,7 +62,7 @@ header nav ul li a:hover {
 
 /* Hero */
 .hero {
-    background-image: url(/assets/images/Background-image.png);
+    background-image: url("/assets/images/Background-image.png");
     background-size: cover;
     background-position: 25% 75%;
     padding: 50px;
@@ -84,18 +84,25 @@ header nav ul li a:hover {
     background-color: black;
 }
 
+/* Title */
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+
 /* about me */
 
-.about h2{
+.title h2{
     padding: 25px;
     position: relative;
     text-align: center;
-    margin: 0 auto;
+    border-right: 3px solid black;
 }
 
 .bio {
     width: 40%;
-    float: right;
+    /* float: right; */
     text-align: left;
     flex-wrap: wrap;
     padding: 10px 15px;
@@ -105,7 +112,8 @@ header nav ul li a:hover {
 
 .about-me {
     padding-left: 70px;
-}
+    }
+
 .about-me img {
     border-radius: 75%;
     width: 30%;
@@ -124,6 +132,8 @@ header nav ul li a:hover {
 }
 
 .work-big {
+    height: 50vh;
+    width: 80vw;
     flex: 1 0 0;
     padding: 10px;
     text-align: center;
@@ -177,9 +187,6 @@ header nav ul li a:hover {
     background-color: gray;
 }
 
-section h2 {
-    text-align: center;
-}
 section div ul {
     padding: 20px;
     display: flex;
