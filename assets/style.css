@@ -122,9 +122,9 @@ header nav ul li a:hover {
     position: relative;
 }
 
-/* My work */
+/* My work old*/
 
-.work-pics {
+/* .work-pics {
   display: flex;
   margin-top: 2%;
   flex-wrap: wrap;
@@ -155,7 +155,27 @@ header nav ul li a:hover {
 
 .work-normal:hover {
     opacity: 1.0;
+} */
+
+/* My Work New */
+
+.work-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.my-work {
+    border: 5px solid rgb(16, 43, 219);
+    background-color: white;
+    color: gray;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+
+
+
 /* my work images */
 
 .run-buddy {
