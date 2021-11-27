@@ -79,8 +79,8 @@ header nav ul li a:hover {
     top: 120px;
     color: rgb(16, 43, 219);
     padding: 1px;
-    border: solid gray 3px;
-    background-color: gray;
+    border: solid lightblue 3px;
+    background-color: lightblue;
 }
 
 /* Title */
@@ -98,9 +98,7 @@ header nav ul li a:hover {
     border-right: 3px solid black;
 }
 
-.bio {
-    width: 40%;
-    float: right;
+.bio { 
     text-align: left;
     flex-wrap: wrap;
     padding: 30px 20px 10px 30px;
@@ -109,7 +107,9 @@ header nav ul li a:hover {
 }
 
 .about-me {
-    padding-left: 80px;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
     }
 
 .about-me img {
@@ -255,4 +255,12 @@ footer {
       width: 100%;
       text-align: center;
     }
+
+@media screen and (max-width: 480px) {
+    .about-me img {
+        width: 100%;
+        height: 100%;
+    }
 }
+}
+
