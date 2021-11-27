@@ -101,7 +101,7 @@ header nav ul li a:hover {
 .bio { 
     text-align: left;
     flex-wrap: wrap;
-    padding: 30px 20px 10px 30px;
+    padding: 30px 20px 40px 30px;
     line-height: 1.4em;
 
 }
@@ -195,39 +195,16 @@ header nav ul li a:hover {
 
 /* move text on work pictures */
 
-.work-normal {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.bottom-left {
-    font-size: 20px;
-    position: absolute;
-    bottom: 15px;
-    left: 108px;
-    background-color: black;
-}
-
-
-
-.border {
-    border: 2px solid #000
-}
-
-
 /* contact me */
 
 .contact-one {
     background-color: gray;
 }
 
-section div ul {
-    padding: 20px;
+section div ul li {
+    padding: 20px 100px;
     display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
     list-style: none;
     border-bottom: 1px black;
 }
