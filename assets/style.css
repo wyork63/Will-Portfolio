@@ -201,28 +201,26 @@ header nav ul li a:hover {
     font-size: 25px;
 }
 
-
-
 /* my work images */
 
 .run-buddy {
-    background-image: url("./assets/images/RunBuddy-project.png");
+    background-image: url("../assets/images/RunBuddy-project.png");
 }
 
 .placeholder-1 {
-    background-image: url(".assets/images/placeholder 1.png");
+    background-image: url("../assets/images/placeholder1.png");
 }
 
 .placeholder-2 {
-    background-image: url("./assets/images/placeholder 2.png");
+    background-image: url("../assets/images/placeholder2.png");
 }
 
 .placeholder-3 {
-    background-image: url("./assets/images/placeholder 3.png") ;
+    background-image: url("../assets/images/placeholder3.png") ;
 }
 
-.placedholder-4 {
-    background-image: url ("./assets/images/placeholder 4.png");
+.placeholder-4 {
+    background-image: url("../assets/images/placeholder4.png");
 }
 
 /* move text on work pictures */
