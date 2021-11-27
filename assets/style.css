@@ -171,8 +171,35 @@ header nav ul li a:hover {
     color: gray;
     min-height: 150px;
     max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all .5s;
+    font-size: 14.5px;
 }
 
+.my-work:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.my-work:hover {
+    background-color: darkgrey;
+}
+
+.my-work div {
+    background-color: lightsteelblue;
+    padding: 10px 5px;
+}
+
+.my-work h3 {
+    font-size: 25px;
+}
 
 
 
@@ -183,7 +210,7 @@ header nav ul li a:hover {
 }
 
 .placeholder-1 {
-    background-image: url("./assets/images/placeholder 1.png");
+    background-image: url(".assets/images/placeholder 1.png");
 }
 
 .placeholder-2 {
