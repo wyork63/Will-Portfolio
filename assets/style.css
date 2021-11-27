@@ -156,6 +156,27 @@ header nav ul li a:hover {
 .work-normal:hover {
     opacity: 1.0;
 }
+/* my work images */
+
+.run-buddy {
+    background-image: url("./assets/images/RunBuddy-project.png");
+}
+
+.placeholder-1 {
+    background-image: url("./assets/images/placeholder 1.png");
+}
+
+.placeholder-2 {
+    background-image: url("./assets/images/placeholder 2.png");
+}
+
+.placeholder-3 {
+    background-image: url("./assets/images/placeholder 3.png") ;
+}
+
+.placedholder-4 {
+    background-image: url ("./assets/images/placeholder 4.png");
+}
 
 /* move text on work pictures */
 
