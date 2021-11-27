@@ -77,16 +77,15 @@ header nav ul li a:hover {
     right: 40px;
     font-size: 30px;
     top: 120px;
-    color: lightgray;
+    color: rgb(16, 43, 219);
     padding: 1px;
-    border: solid black 3px;
-    background-color: black;
+    border: solid gray 3px;
+    background-color: gray;
 }
 
 /* Title */
 .title {
     display: flex;
-    flex-direction: row;
 }
 
 
@@ -101,16 +100,16 @@ header nav ul li a:hover {
 
 .bio {
     width: 40%;
-    /* float: right; */
+    float: right;
     text-align: left;
     flex-wrap: wrap;
-    padding: 10px 15px;
+    padding: 30px 20px 10px 30px;
     line-height: 1.4em;
 
 }
 
 .about-me {
-    padding-left: 70px;
+    padding-left: 80px;
     }
 
 .about-me img {
@@ -121,41 +120,6 @@ header nav ul li a:hover {
     box-shadow: lightgray;
     position: relative;
 }
-
-/* My work old*/
-
-/* .work-pics {
-  display: flex;
-  margin-top: 2%;
-  flex-wrap: wrap;
-}
-
-.work-big {
-    height: 50vh;
-    width: 80vw;
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    opacity: .5;
-}
-
-.work-big:hover {
-    opacity: 1.0;
-}
-
-.work-normal {
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  justify-content: space-between;
-  opacity: .65;
-  position: relative;
-  text-align: center;
-}
-
-.work-normal:hover {
-    opacity: 1.0;
-} */
 
 /* My Work New */
 /* coded with help of tutor */
@@ -168,7 +132,7 @@ header nav ul li a:hover {
 
 .my-work {
     border: 3px solid rgb(49, 65, 166);
-    color: black;
+    color: rgb(16, 43, 219);
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
