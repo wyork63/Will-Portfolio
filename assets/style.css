@@ -92,10 +92,10 @@ header nav ul li a:hover {
 /* about me */
 
 .title h2{
-    padding: 25px;
+    padding: 40px 20px 20px 15px;
     position: relative;
-    text-align: center;
-    border-right: 3px solid black;
+    text-align: left;
+    /* border-right: 3px solid black; */
 }
 
 .bio { 
@@ -125,6 +125,7 @@ header nav ul li a:hover {
 /* coded with help of tutor */
 
 .work-pics {
+    padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -202,7 +203,7 @@ header nav ul li a:hover {
 }
 
 section div ul li {
-    padding: 20px 100px;
+    padding: 35px 0px 0px 200px;
     display: inline-flex;
     justify-content: space-between;
     list-style: none;
