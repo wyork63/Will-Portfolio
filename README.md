@@ -20,4 +20,6 @@ Will
 https://wyork63.github.io/Will-Portfolio/
 
 ## Screenshot of Page
-![screenshot of deployed page](/assets/images/Deployed screenshot.png)
+![screenshot of deployed page](/assets/images/Deployed-screenshot.png)
+
+
