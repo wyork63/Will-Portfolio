@@ -170,27 +170,27 @@ header nav ul li a:hover {
 /* my work images */
 
 .run-buddy {
-    background-image: url("../assets/images/RunBuddy-project.png");
+    background-image: url("../assets/images/WNS-dashboard-img.png");
     background-size: auto 153%;
 }
 
 .placeholder-1 {
-    background-image: url("../assets/images/placeholder1.png");
-    background-size: auto 120%;
+    background-image: url("../assets/images/image-weather-dashboard.png");
+    background-size: auto 190%;
 }
 
 .placeholder-2 {
-    background-image: url("../assets/images/placeholder2.png");
-    background-size: auto 120%;
+    background-image: url("../assets/images/workday-scheduler.png");
+    background-size: auto 190%;
 }
 
 .placeholder-3 {
-    background-image: url("../assets/images/placeholder3.png") ;
+    background-image: url("../assets/images/code-quiz.png") ;
     background-size: auto 120%;
 }
 
 .placeholder-4 {
-    background-image: url("../assets/images/placeholder4.png");
+    background-image: url("../assets/images/PasswordGeneratorScreenshot.png");
     background-size: auto 120%;
 }
 
@@ -249,5 +249,6 @@ footer {
         width: 100px;
         height: 100px;
     }
+}
 }
 }
